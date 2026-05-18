@@ -2,6 +2,21 @@
 
 Self-contained macOS Swift/Metal/MLX Tempest AI app.
 
+![Tempest AI running one Swift ROM game](docs/media/tempest-ai-single-game.png)
+
+## Demo
+
+The app runs the original `tempest1` ROM inside the macOS window with the Swift
+emulator, Swift AVG vector renderer, and MLX/Metal AI runtime. No MAME window,
+Python backend, Lua bridge, sockets, ScreenCaptureKit, or external game process
+is used by the normal app runtime.
+
+<video src="docs/media/tempest-ai-demo.mp4" controls width="100%"></video>
+
+[Watch the short MP4 demo](docs/media/tempest-ai-demo.mp4)
+
+![Tempest AI four-game training grid](docs/media/tempest-ai-four-games.png)
+
 ## Current Runtime
 
 The current app lives in `TempestAI/` and runs without external game processes:
@@ -29,6 +44,7 @@ The current app bundle is created at `build/Tempest AI.app`.
 
 ```text
 TempestAI/                  Swift app, emulator, Metal renderer, MLX learner
+docs/media/                 README screenshots and demo video
 models/swift_tensors/       Swift-readable neural tensor package
 roms/tempest1/              Original Tempest ROM set used by the Swift emulator
 tests/                      Current Swift-runtime and cleanup regression tests
