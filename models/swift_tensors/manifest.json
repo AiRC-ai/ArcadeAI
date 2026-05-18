@@ -1,0 +1,699 @@
+{
+  "action_count": 44,
+  "atoms": 51,
+  "attention_dim": 128,
+  "attention_heads": 8,
+  "checkpoint": "swift_tensors",
+  "checkpoint_sha256": "ebc3577faa43ed3f362ae1ff96d75f20a831faaede1ae9bc336a9735159746cd",
+  "engine_version": 2,
+  "epsilon": 0.0,
+  "expert_ratio": 0.0,
+  "format": "tempest-swift-tensor-package",
+  "format_version": 1,
+  "frame_count": 1768241168,
+  "state_size": 195,
+  "tensors": [
+    {
+      "dtype": "float32",
+      "file": "online_state_dict/_lane_cos_pos.f32",
+      "name": "_lane_cos_pos",
+      "section": "online_state_dict",
+      "sha256": "9a0344b05d3d99a9d53abe00ecce95c0817bc79b428df4273ac3ce7a1cd91b0f",
+      "shape": [
+        16
+      ]
+    },
+    {
+      "dtype": "float32",
+      "file": "online_state_dict/_lane_sin_pos.f32",
+      "name": "_lane_sin_pos",
+      "section": "online_state_dict",
+      "sha256": "b9608167797d3b685e3b5e7702db8cdd352cd5f307d0674ac379ef1a02f5ce33",
+      "shape": [
+        16
+      ]
+    },
+    {
+      "dtype": "float32",
+      "file": "online_state_dict/adv_fc__bias.f32",
+      "name": "adv_fc.bias",
+      "section": "online_state_dict",
+      "sha256": "44d9d51a1b13eacb179af63c8d65ce5952f64f765284eb08b3e04922161b0d55",
+      "shape": [
+        192
+      ]
+    },
+    {
+      "dtype": "float32",
+      "file": "online_state_dict/adv_fc__weight.f32",
+      "name": "adv_fc.weight",
+      "section": "online_state_dict",
+      "sha256": "fd684a1d6c5affe7b64f893525f44c854864d0a3a7f891133beccf174cfe1105",
+      "shape": [
+        192,
+        384
+      ]
+    },
+    {
+      "dtype": "float32",
+      "file": "online_state_dict/adv_out__bias.f32",
+      "name": "adv_out.bias",
+      "section": "online_state_dict",
+      "sha256": "32fcd0ea390b258c82104091af4241d48a6c9402170114a99f7dc460cdc18270",
+      "shape": [
+        2244
+      ]
+    },
+    {
+      "dtype": "float32",
+      "file": "online_state_dict/adv_out__weight.f32",
+      "name": "adv_out.weight",
+      "section": "online_state_dict",
+      "sha256": "66d08ba06fb277021f9d0aa94e27b7a2875249b3e5ab9013cec63559fdcbd2d3",
+      "shape": [
+        2244,
+        192
+      ]
+    },
+    {
+      "dtype": "float32",
+      "file": "online_state_dict/lane_cross_attn__cross_attn__in_proj_bias.f32",
+      "name": "lane_cross_attn.cross_attn.in_proj_bias",
+      "section": "online_state_dict",
+      "sha256": "9d990ed9c2cc9afab1da90b8d118a0e0833a8d79206850c255b84fd56c33cdea",
+      "shape": [
+        384
+      ]
+    },
+    {
+      "dtype": "float32",
+      "file": "online_state_dict/lane_cross_attn__cross_attn__in_proj_weight.f32",
+      "name": "lane_cross_attn.cross_attn.in_proj_weight",
+      "section": "online_state_dict",
+      "sha256": "61c9785f1b11e17db593b72a12b0eb85723ebf8dd23413d13f5ba2e1185943e6",
+      "shape": [
+        384,
+        128
+      ]
+    },
+    {
+      "dtype": "float32",
+      "file": "online_state_dict/lane_cross_attn__cross_attn__out_proj__bias.f32",
+      "name": "lane_cross_attn.cross_attn.out_proj.bias",
+      "section": "online_state_dict",
+      "sha256": "0e0b27351a2644da90e4d026970ce3014913bf3767315981d99a60ab2b67e564",
+      "shape": [
+        128
+      ]
+    },
+    {
+      "dtype": "float32",
+      "file": "online_state_dict/lane_cross_attn__cross_attn__out_proj__weight.f32",
+      "name": "lane_cross_attn.cross_attn.out_proj.weight",
+      "section": "online_state_dict",
+      "sha256": "3570d8aa2244930aafdb24b436aea687185fa7ab1411e71c397d891519dd5527",
+      "shape": [
+        128,
+        128
+      ]
+    },
+    {
+      "dtype": "float32",
+      "file": "online_state_dict/lane_cross_attn__cross_norm__bias.f32",
+      "name": "lane_cross_attn.cross_norm.bias",
+      "section": "online_state_dict",
+      "sha256": "d17aad7518e12a953a3cd1934f80658ca86ae5be8b871ef08971e2cb7ac6ad82",
+      "shape": [
+        128
+      ]
+    },
+    {
+      "dtype": "float32",
+      "file": "online_state_dict/lane_cross_attn__cross_norm__weight.f32",
+      "name": "lane_cross_attn.cross_norm.weight",
+      "section": "online_state_dict",
+      "sha256": "93a3dd59f9a0fbfc9767dda094818187d771af7d8641188acb53f1cacf9cc37a",
+      "shape": [
+        128
+      ]
+    },
+    {
+      "dtype": "float32",
+      "file": "online_state_dict/lane_cross_attn__enemy_embed__bias.f32",
+      "name": "lane_cross_attn.enemy_embed.bias",
+      "section": "online_state_dict",
+      "sha256": "55801d1f21761285d0dd6a04573e509eb22014c6f305c842d16773a119148d21",
+      "shape": [
+        128
+      ]
+    },
+    {
+      "dtype": "float32",
+      "file": "online_state_dict/lane_cross_attn__enemy_embed__weight.f32",
+      "name": "lane_cross_attn.enemy_embed.weight",
+      "section": "online_state_dict",
+      "sha256": "23c56c923701100357716b644ba58b1e4baed8d330eedf99a7e323ea43ba73e8",
+      "shape": [
+        128,
+        14
+      ]
+    },
+    {
+      "dtype": "float32",
+      "file": "online_state_dict/lane_cross_attn__enemy_norm__bias.f32",
+      "name": "lane_cross_attn.enemy_norm.bias",
+      "section": "online_state_dict",
+      "sha256": "4ea6dfaecddd1eee832029d14dca914de09294518981cbbdfd4cc472af3d9495",
+      "shape": [
+        128
+      ]
+    },
+    {
+      "dtype": "float32",
+      "file": "online_state_dict/lane_cross_attn__enemy_norm__weight.f32",
+      "name": "lane_cross_attn.enemy_norm.weight",
+      "section": "online_state_dict",
+      "sha256": "d305d75a91b481ce61fb8d4af8a794c6e1e839baeec7830941644078e3536448",
+      "shape": [
+        128
+      ]
+    },
+    {
+      "dtype": "float32",
+      "file": "online_state_dict/lane_cross_attn__lane_embed__bias.f32",
+      "name": "lane_cross_attn.lane_embed.bias",
+      "section": "online_state_dict",
+      "sha256": "8d45afcf11117fef45cad1468843bae8e5769943933acb190c6568a0b5cad565",
+      "shape": [
+        128
+      ]
+    },
+    {
+      "dtype": "float32",
+      "file": "online_state_dict/lane_cross_attn__lane_embed__weight.f32",
+      "name": "lane_cross_attn.lane_embed.weight",
+      "section": "online_state_dict",
+      "sha256": "866bab3469dce4e199497f51514e7df0b8af49170fb6f813657c7eed04a7a1c2",
+      "shape": [
+        128,
+        5
+      ]
+    },
+    {
+      "dtype": "float32",
+      "file": "online_state_dict/lane_cross_attn__lane_norm__bias.f32",
+      "name": "lane_cross_attn.lane_norm.bias",
+      "section": "online_state_dict",
+      "sha256": "26e10dce9ae0e5b13c0ec4fe0883203f9c9b96ab7c781262e82c9e78a82fe10e",
+      "shape": [
+        128
+      ]
+    },
+    {
+      "dtype": "float32",
+      "file": "online_state_dict/lane_cross_attn__lane_norm__weight.f32",
+      "name": "lane_cross_attn.lane_norm.weight",
+      "section": "online_state_dict",
+      "sha256": "813c2bde20199018e8dba9bb0fccc1f3cbeabce24fd2245c5b431664700a8245",
+      "shape": [
+        128
+      ]
+    },
+    {
+      "dtype": "float32",
+      "file": "online_state_dict/support.f32",
+      "name": "support",
+      "section": "online_state_dict",
+      "sha256": "de0bc290edda994b5da08d9bb848421e4ec6aeeb2d77d43051c1006a2ccb7fcd",
+      "shape": [
+        51
+      ]
+    },
+    {
+      "dtype": "float32",
+      "file": "online_state_dict/trunk__0__bias.f32",
+      "name": "trunk.0.bias",
+      "section": "online_state_dict",
+      "sha256": "68ed9a78b1f328a6b93bfd952a75a3fd6b186b4be05427c9dc7016718b1f1481",
+      "shape": [
+        384
+      ]
+    },
+    {
+      "dtype": "float32",
+      "file": "online_state_dict/trunk__0__weight.f32",
+      "name": "trunk.0.weight",
+      "section": "online_state_dict",
+      "sha256": "ea0e7dc8e4c988a3cdfc42e651e03482b4e6354f4df34a68d99d49b701bb9899",
+      "shape": [
+        384,
+        323
+      ]
+    },
+    {
+      "dtype": "float32",
+      "file": "online_state_dict/trunk__1__bias.f32",
+      "name": "trunk.1.bias",
+      "section": "online_state_dict",
+      "sha256": "f94cfcaa76c9165e5f30afb82c6bb7040f85d91b1136a0612fc8a88bfda27145",
+      "shape": [
+        384
+      ]
+    },
+    {
+      "dtype": "float32",
+      "file": "online_state_dict/trunk__1__weight.f32",
+      "name": "trunk.1.weight",
+      "section": "online_state_dict",
+      "sha256": "7a7fbc5284ebdcd6fa302abbee1cd9432ec927c6cce6c49c4aebe31c2949ee16",
+      "shape": [
+        384
+      ]
+    },
+    {
+      "dtype": "float32",
+      "file": "online_state_dict/trunk__3__bias.f32",
+      "name": "trunk.3.bias",
+      "section": "online_state_dict",
+      "sha256": "b4bda79f9a9f31bb680eb8e35bd0d6bbba0a221898f8bdece276f578f323b9c0",
+      "shape": [
+        384
+      ]
+    },
+    {
+      "dtype": "float32",
+      "file": "online_state_dict/trunk__3__weight.f32",
+      "name": "trunk.3.weight",
+      "section": "online_state_dict",
+      "sha256": "f417793482af2a97a7ed4e46d250ffd7f2c08ecdafe94cc2096960aae9d9c078",
+      "shape": [
+        384,
+        384
+      ]
+    },
+    {
+      "dtype": "float32",
+      "file": "online_state_dict/trunk__4__bias.f32",
+      "name": "trunk.4.bias",
+      "section": "online_state_dict",
+      "sha256": "af6d24fed400453243a89a838275f07798e98479943f0ad84f3842afc1315322",
+      "shape": [
+        384
+      ]
+    },
+    {
+      "dtype": "float32",
+      "file": "online_state_dict/trunk__4__weight.f32",
+      "name": "trunk.4.weight",
+      "section": "online_state_dict",
+      "sha256": "99f9c81728748ec6b167a3d7eac6546be18b26aad337f2a2d25c0920c2f2f6b3",
+      "shape": [
+        384
+      ]
+    },
+    {
+      "dtype": "float32",
+      "file": "online_state_dict/val_fc__bias.f32",
+      "name": "val_fc.bias",
+      "section": "online_state_dict",
+      "sha256": "eaa5c34d2bbd7368ab8386484a4a94a6ffa04554a9fe46169d51c317f1752fcd",
+      "shape": [
+        192
+      ]
+    },
+    {
+      "dtype": "float32",
+      "file": "online_state_dict/val_fc__weight.f32",
+      "name": "val_fc.weight",
+      "section": "online_state_dict",
+      "sha256": "df4fe603e9de44e5b4d27d7bcfddc50ba818bd3b7d515382d536351abcf3d863",
+      "shape": [
+        192,
+        384
+      ]
+    },
+    {
+      "dtype": "float32",
+      "file": "online_state_dict/val_out__bias.f32",
+      "name": "val_out.bias",
+      "section": "online_state_dict",
+      "sha256": "a0bbe072ef3bb6b234926fbc52f76581c10115dd5d513641f03843acb2141874",
+      "shape": [
+        51
+      ]
+    },
+    {
+      "dtype": "float32",
+      "file": "online_state_dict/val_out__weight.f32",
+      "name": "val_out.weight",
+      "section": "online_state_dict",
+      "sha256": "d4f6b26281dc317dcf814fb8512cab1c2e46293ed2ceddab7eff2d36d4f083a5",
+      "shape": [
+        51,
+        192
+      ]
+    },
+    {
+      "dtype": "float32",
+      "file": "target_state_dict/_lane_cos_pos.f32",
+      "name": "_lane_cos_pos",
+      "section": "target_state_dict",
+      "sha256": "9a0344b05d3d99a9d53abe00ecce95c0817bc79b428df4273ac3ce7a1cd91b0f",
+      "shape": [
+        16
+      ]
+    },
+    {
+      "dtype": "float32",
+      "file": "target_state_dict/_lane_sin_pos.f32",
+      "name": "_lane_sin_pos",
+      "section": "target_state_dict",
+      "sha256": "b9608167797d3b685e3b5e7702db8cdd352cd5f307d0674ac379ef1a02f5ce33",
+      "shape": [
+        16
+      ]
+    },
+    {
+      "dtype": "float32",
+      "file": "target_state_dict/adv_fc__bias.f32",
+      "name": "adv_fc.bias",
+      "section": "target_state_dict",
+      "sha256": "b98e35d063538b5d0f9b62480a649b25c2bd943b658cc77a350441997cfbeccd",
+      "shape": [
+        192
+      ]
+    },
+    {
+      "dtype": "float32",
+      "file": "target_state_dict/adv_fc__weight.f32",
+      "name": "adv_fc.weight",
+      "section": "target_state_dict",
+      "sha256": "562c42fbcea0038b5b5e7a17ba5eb9b5d5fba4bfeeefa4f3c31da082fc903cab",
+      "shape": [
+        192,
+        384
+      ]
+    },
+    {
+      "dtype": "float32",
+      "file": "target_state_dict/adv_out__bias.f32",
+      "name": "adv_out.bias",
+      "section": "target_state_dict",
+      "sha256": "67ea374b4d328e9404bc1cbcafd64101df8036688d5d10d18f7c80a50d97cf2d",
+      "shape": [
+        2244
+      ]
+    },
+    {
+      "dtype": "float32",
+      "file": "target_state_dict/adv_out__weight.f32",
+      "name": "adv_out.weight",
+      "section": "target_state_dict",
+      "sha256": "4b2b5e512d78da9ea69ace27aee30721bdc844d0258095da83be256c5cbea42c",
+      "shape": [
+        2244,
+        192
+      ]
+    },
+    {
+      "dtype": "float32",
+      "file": "target_state_dict/lane_cross_attn__cross_attn__in_proj_bias.f32",
+      "name": "lane_cross_attn.cross_attn.in_proj_bias",
+      "section": "target_state_dict",
+      "sha256": "d02fe600797ab41ea49635cacd4d1242555cc1efcc700651777306f598a4649f",
+      "shape": [
+        384
+      ]
+    },
+    {
+      "dtype": "float32",
+      "file": "target_state_dict/lane_cross_attn__cross_attn__in_proj_weight.f32",
+      "name": "lane_cross_attn.cross_attn.in_proj_weight",
+      "section": "target_state_dict",
+      "sha256": "122ae7f52298ff806fc5278532406b48fa9502a4335412adbe6af7f6374c3a1e",
+      "shape": [
+        384,
+        128
+      ]
+    },
+    {
+      "dtype": "float32",
+      "file": "target_state_dict/lane_cross_attn__cross_attn__out_proj__bias.f32",
+      "name": "lane_cross_attn.cross_attn.out_proj.bias",
+      "section": "target_state_dict",
+      "sha256": "3648c56f42a716f74a1ea5806f9e211cee52d48a8ab7a2dd87a79c8dc341fe43",
+      "shape": [
+        128
+      ]
+    },
+    {
+      "dtype": "float32",
+      "file": "target_state_dict/lane_cross_attn__cross_attn__out_proj__weight.f32",
+      "name": "lane_cross_attn.cross_attn.out_proj.weight",
+      "section": "target_state_dict",
+      "sha256": "1fe61255778950bfd005bcd6790a2720e10fca5fcc8b16d63c454a2788a0e4ec",
+      "shape": [
+        128,
+        128
+      ]
+    },
+    {
+      "dtype": "float32",
+      "file": "target_state_dict/lane_cross_attn__cross_norm__bias.f32",
+      "name": "lane_cross_attn.cross_norm.bias",
+      "section": "target_state_dict",
+      "sha256": "6a8a4e39dcfef96ed405e2af67dbc88cee31c863b906bc3e4e68e586963d4162",
+      "shape": [
+        128
+      ]
+    },
+    {
+      "dtype": "float32",
+      "file": "target_state_dict/lane_cross_attn__cross_norm__weight.f32",
+      "name": "lane_cross_attn.cross_norm.weight",
+      "section": "target_state_dict",
+      "sha256": "c84400d1144936f4516de9490f1be779ae7b979b70f27ed2f70a8e586725a112",
+      "shape": [
+        128
+      ]
+    },
+    {
+      "dtype": "float32",
+      "file": "target_state_dict/lane_cross_attn__enemy_embed__bias.f32",
+      "name": "lane_cross_attn.enemy_embed.bias",
+      "section": "target_state_dict",
+      "sha256": "d8fca662d3e0f0b7c823cf6ba4fd70f40ca5d8f17820810a16cf364678adc97e",
+      "shape": [
+        128
+      ]
+    },
+    {
+      "dtype": "float32",
+      "file": "target_state_dict/lane_cross_attn__enemy_embed__weight.f32",
+      "name": "lane_cross_attn.enemy_embed.weight",
+      "section": "target_state_dict",
+      "sha256": "5ee75b00e2f196d3ed465cc35c4f351d641bf8302a5792e6bf2c3f4bb45468ab",
+      "shape": [
+        128,
+        14
+      ]
+    },
+    {
+      "dtype": "float32",
+      "file": "target_state_dict/lane_cross_attn__enemy_norm__bias.f32",
+      "name": "lane_cross_attn.enemy_norm.bias",
+      "section": "target_state_dict",
+      "sha256": "f2b8a13af9aecd00b76fd83b503fe66a2be254d37b1741733116c693d9531d6a",
+      "shape": [
+        128
+      ]
+    },
+    {
+      "dtype": "float32",
+      "file": "target_state_dict/lane_cross_attn__enemy_norm__weight.f32",
+      "name": "lane_cross_attn.enemy_norm.weight",
+      "section": "target_state_dict",
+      "sha256": "f5956196507cd16838b41f83c174232ba109771893cdb29c090a3c8c39da5043",
+      "shape": [
+        128
+      ]
+    },
+    {
+      "dtype": "float32",
+      "file": "target_state_dict/lane_cross_attn__lane_embed__bias.f32",
+      "name": "lane_cross_attn.lane_embed.bias",
+      "section": "target_state_dict",
+      "sha256": "643aedcdf9adc8bc2adb6e7afd16e72ddc82ffc5f7a787c0dbf9eaab2af6d77a",
+      "shape": [
+        128
+      ]
+    },
+    {
+      "dtype": "float32",
+      "file": "target_state_dict/lane_cross_attn__lane_embed__weight.f32",
+      "name": "lane_cross_attn.lane_embed.weight",
+      "section": "target_state_dict",
+      "sha256": "915c4b0535a19a9412e7f6ce060125a433b957ab9867f82421dbc410d4898aa5",
+      "shape": [
+        128,
+        5
+      ]
+    },
+    {
+      "dtype": "float32",
+      "file": "target_state_dict/lane_cross_attn__lane_norm__bias.f32",
+      "name": "lane_cross_attn.lane_norm.bias",
+      "section": "target_state_dict",
+      "sha256": "29d1cc28b8031211772b7a7f32d9174626c01a72dec6800fa584fff51539c873",
+      "shape": [
+        128
+      ]
+    },
+    {
+      "dtype": "float32",
+      "file": "target_state_dict/lane_cross_attn__lane_norm__weight.f32",
+      "name": "lane_cross_attn.lane_norm.weight",
+      "section": "target_state_dict",
+      "sha256": "b1d03e1168b2a205f43806fc9139cc51d65008333370214a730caad2e6fcf5a5",
+      "shape": [
+        128
+      ]
+    },
+    {
+      "dtype": "float32",
+      "file": "target_state_dict/support.f32",
+      "name": "support",
+      "section": "target_state_dict",
+      "sha256": "de0bc290edda994b5da08d9bb848421e4ec6aeeb2d77d43051c1006a2ccb7fcd",
+      "shape": [
+        51
+      ]
+    },
+    {
+      "dtype": "float32",
+      "file": "target_state_dict/trunk__0__bias.f32",
+      "name": "trunk.0.bias",
+      "section": "target_state_dict",
+      "sha256": "d30434b410d86963c722615f4b05f7a0b40f254dc4941f8d24376f2a08d7e510",
+      "shape": [
+        384
+      ]
+    },
+    {
+      "dtype": "float32",
+      "file": "target_state_dict/trunk__0__weight.f32",
+      "name": "trunk.0.weight",
+      "section": "target_state_dict",
+      "sha256": "81d5c3242ff2ec656deec5f40fb6cc0e9efa61a0c625dc31991e2c8daf345559",
+      "shape": [
+        384,
+        323
+      ]
+    },
+    {
+      "dtype": "float32",
+      "file": "target_state_dict/trunk__1__bias.f32",
+      "name": "trunk.1.bias",
+      "section": "target_state_dict",
+      "sha256": "cc90224dd741db0ec2ed0cde725520d9cf330bdee5edbc89ad5e2f2be3175d28",
+      "shape": [
+        384
+      ]
+    },
+    {
+      "dtype": "float32",
+      "file": "target_state_dict/trunk__1__weight.f32",
+      "name": "trunk.1.weight",
+      "section": "target_state_dict",
+      "sha256": "7ff3b6423f9a6765a0c01e11032691c7214bcc8785a30d13e31e7184dd403d0e",
+      "shape": [
+        384
+      ]
+    },
+    {
+      "dtype": "float32",
+      "file": "target_state_dict/trunk__3__bias.f32",
+      "name": "trunk.3.bias",
+      "section": "target_state_dict",
+      "sha256": "f1e301c409e8042a33a8d70512c61365ed24d6322564be7549ba84ce351643a0",
+      "shape": [
+        384
+      ]
+    },
+    {
+      "dtype": "float32",
+      "file": "target_state_dict/trunk__3__weight.f32",
+      "name": "trunk.3.weight",
+      "section": "target_state_dict",
+      "sha256": "c61c9fac0bfd44cf8a6cc35efff2a0e35b1eec955374dd8b0470a4b396c3e2ee",
+      "shape": [
+        384,
+        384
+      ]
+    },
+    {
+      "dtype": "float32",
+      "file": "target_state_dict/trunk__4__bias.f32",
+      "name": "trunk.4.bias",
+      "section": "target_state_dict",
+      "sha256": "2f0aa562e0ddaa7d423c0584455ad789cea2bbef5893363b2ab4f49e3415311c",
+      "shape": [
+        384
+      ]
+    },
+    {
+      "dtype": "float32",
+      "file": "target_state_dict/trunk__4__weight.f32",
+      "name": "trunk.4.weight",
+      "section": "target_state_dict",
+      "sha256": "707bbca5cfb5361883ec4a149eff69af433815c6edf17b5eb742b72d10e818c2",
+      "shape": [
+        384
+      ]
+    },
+    {
+      "dtype": "float32",
+      "file": "target_state_dict/val_fc__bias.f32",
+      "name": "val_fc.bias",
+      "section": "target_state_dict",
+      "sha256": "a7ea374f8858eadcca5ea18742ea9b4078bfcc0ec613a887d3e77c2eb3375796",
+      "shape": [
+        192
+      ]
+    },
+    {
+      "dtype": "float32",
+      "file": "target_state_dict/val_fc__weight.f32",
+      "name": "val_fc.weight",
+      "section": "target_state_dict",
+      "sha256": "05fdbf46e5a992effd3f5b6ede4aa50b8b4eaedf89de2816d71e2cd9247d87de",
+      "shape": [
+        192,
+        384
+      ]
+    },
+    {
+      "dtype": "float32",
+      "file": "target_state_dict/val_out__bias.f32",
+      "name": "val_out.bias",
+      "section": "target_state_dict",
+      "sha256": "81970b858d9c3182edf678dbb45fdba50dd582d3733e7ebb7beac18c5c4af6ce",
+      "shape": [
+        51
+      ]
+    },
+    {
+      "dtype": "float32",
+      "file": "target_state_dict/val_out__weight.f32",
+      "name": "val_out.weight",
+      "section": "target_state_dict",
+      "sha256": "283b9944d517ac6983d3b4544f433c5f419a43c3df3a3f516610d0a18f67be7b",
+      "shape": [
+        51,
+        192
+      ]
+    }
+  ],
+  "total_training_steps": 11775336,
+  "training_steps": 11775337
+}

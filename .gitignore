@@ -1,0 +1,15 @@
+.DS_Store
+__pycache__/
+cfg
+nvram
+.venv/
+venv/
+*.log
+*.pyc
+audio/*.mp3
+log.txt
+.build/
+build/
+.pytest_cache/
+.goose/
+.vscode/

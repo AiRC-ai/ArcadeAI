@@ -1,0 +1,17 @@
+{
+  "agreement": 0.0,
+  "bestAIMode": false,
+  "checkpointHash": "ebc3577faa43ed3f362ae1ff96d75f20a831faaede1ae9bc336a9735159746cd",
+  "episodes": 0,
+  "epsilon": 0.01,
+  "expertRatio": 0.02,
+  "gradNorm": 0.0,
+  "loss": 0.0,
+  "qMean": 0.0,
+  "replayCount": 763035,
+  "savedAt": "2026-05-17T04:34:15Z",
+  "source": "bundled_seed",
+  "trainingEnabled": true,
+  "trainingSteps": 0,
+  "version": 1
+}
